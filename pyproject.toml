@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dbupload-cli"
+version = "0.1.0"
+description = "Interactive CLI for securely uploading files to Dropbox."
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "dropbox",
+    "rich"
+]
+
+[project.scripts]
+# This exposes the 'dbupload' command in the terminal
+dbupload = "dbupload_cli.cli:main"
