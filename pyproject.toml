@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "dbupload-cli"
-version = "0.1.0"
+version = "0.2.0"
 description = "Interactive CLI for securely uploading files to Dropbox."
 readme = "README.md"
 requires-python = ">=3.7"
